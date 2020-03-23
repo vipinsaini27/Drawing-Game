@@ -1,2 +1,2 @@
 # Drawing-Game
-An AI based Drawing Game
+AI based drawing game based on Google Quick Draw model.

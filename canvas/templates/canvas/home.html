@@ -1,0 +1,15 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Draw!!!</title>
+    <link rel='stylesheet' href="{% static 'canvas/css/home.css' %}">
+    <script src="{% static 'canvas/script/home.js' %}"></script>
+  </head>
+  <body>
+    <canvas id="canvas" width="1200" height="500"></canvas>
+    <div id="predict"></div>
+  </body>
+</html>
