@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from model.views import resetImg
 
-def home(request):
+def draw(request):
     resetImg()
-    return render(request, "canvas/home.html", {})
+    return render(request, "canvas/draw.html", {})

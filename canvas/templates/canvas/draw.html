@@ -1,0 +1,16 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Draw!!!</title>
+    <link rel='stylesheet' href="{% static 'canvas/css/draw.css' %}">
+    <script src="{% static 'canvas/script/draw.js' %}"></script>
+  </head>
+  <body >
+    <div id="showtimer">DrawTimer</div><br>
+    <canvas id="canvas" width="1200" height="500"></canvas>
+    <div id="predict">Hello</div>
+  </body>
+</html>
