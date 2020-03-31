@@ -4,7 +4,7 @@ import cv2
 import json
 import numpy as np
 from .apps import ModelConfig
-from . import extract_image as ex
+from .static.model.py_files import extract_image as ex
 
 cnvs = np.full((500, 1200, 3), 255, np.uint8)
 
