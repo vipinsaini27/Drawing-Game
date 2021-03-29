@@ -35,7 +35,7 @@ packaging==20.3
 pickleshare==0.7.5
 protobuf==3.11.3
 pycosat==0.6.3
-Pygments==2.6.1
+Pygments==2.7.4
 pyparsing==2.4.6
 pyrsistent==0.16.0
 python-jsonrpc-server==0.3.4
