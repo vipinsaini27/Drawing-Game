@@ -33,7 +33,7 @@ opencv-python==4.2.0.32
 opt-einsum==3.2.0
 packaging==20.3
 pickleshare==0.7.5
-protobuf==3.11.3
+protobuf==3.15.0
 pycosat==0.6.3
 Pygments==2.6.1
 pyparsing==2.4.6
